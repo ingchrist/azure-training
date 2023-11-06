@@ -1,0 +1,43 @@
+body {
+  background-color: #333;
+  color: #fff;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.leftContainer {
+  padding: 20px;
+  min-width: 250px;
+}
+
+.inboxContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightContainer {
+  padding: 20px;
+  flex: 1;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #fff;
+}
+
+.itemContainer:hover {
+  background-color: #666;
+  cursor: pointer;
+}
+
+.emailContainer {
+  margin-bottom: 20px;
+}
